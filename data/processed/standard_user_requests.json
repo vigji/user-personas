@@ -1,0 +1,46 @@
+{
+  "description": "Ultra-standard, persona-neutral user requests. Each simulated user (see user_persona_instructions.json) issues these same requests phrased in their persona's voice, so that any variation in assistant behavior is attributable to the user persona, not the task.",
+  "usage": "Pair one user_simulation_instruction (system prompt for the user simulator) with one request below (the task the simulated user must make). Placeholders in [BRACKETS] are filled with fixed shared content across all personas.",
+  "requests": [
+    {
+      "id": "email",
+      "label": "Write a short email",
+      "request": "Can you help me write a short email to a colleague asking to reschedule a meeting to next week?"
+    },
+    {
+      "id": "explain",
+      "label": "Explain a concept simply",
+      "request": "Can you explain how vaccines work, in simple terms?"
+    },
+    {
+      "id": "summarize",
+      "label": "Summarize a text",
+      "request": "Can you summarize the main points of this text for me? [TEXT]"
+    },
+    {
+      "id": "proofread",
+      "label": "Proofread a paragraph",
+      "request": "Can you proofread this paragraph and fix any mistakes? [PARAGRAPH]"
+    },
+    {
+      "id": "plan_week",
+      "label": "Plan the week",
+      "request": "I need to get organized. Can you help me put together a simple plan for my week?"
+    },
+    {
+      "id": "dinner",
+      "label": "Dinner suggestion",
+      "request": "What should I make for dinner tonight? I have eggs, rice, and spinach at home."
+    },
+    {
+      "id": "compare",
+      "label": "Compare two options",
+      "request": "I'm trying to decide between two laptops for everyday use. Can you help me compare them? [OPTION_A] vs [OPTION_B]"
+    },
+    {
+      "id": "gift",
+      "label": "Gift ideas",
+      "request": "Can you give me a few ideas for a birthday gift for a good friend?"
+    }
+  ]
+}
